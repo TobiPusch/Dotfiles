@@ -49,7 +49,7 @@ window#waybar.hidden {
 #workspaces button.urgent {
   background-color: #f38ba8;
 }
-
+#window,
 #cpu,
 #memory,
 #temperature,
@@ -167,4 +167,13 @@ padding-left: 5px;
 padding-left: 5px;
  padding-right: 10px;
  background-color: #f9e2af;
+}
+
+
+
+#window {
+padding-left: 5px;
+ padding-right: 10px;
+color: #f9e2af; 
+/*color: #cdd6f4;*/
 }
