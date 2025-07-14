@@ -15,6 +15,7 @@
         "hyprland/window"
     ],
     "modules-right": [
+	"custom/wallpaper",
         "idle_inhibitor",
         "pulseaudio",
         "network",
@@ -30,7 +31,7 @@
         "clock",
         "tray",
         "custom/power"
-    ],
+	    ],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -240,5 +241,14 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
-    }
+    },
+
+"custom/wallpaper":{
+	"format" : "🎨",
+	"on-click":".config/wallpaper/script/Random_Wallpaper.sh"
+}
+
+
+
+
 }

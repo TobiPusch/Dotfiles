@@ -49,6 +49,8 @@ window#waybar.hidden {
 #workspaces button.urgent {
   background-color: #f38ba8;
 }
+
+#custom-wallpaper,
 #window,
 #cpu,
 #memory,
@@ -69,6 +71,7 @@ window#waybar.hidden {
   background-color: #1e1e2e;
   color: #181825;
 }
+
 
 #custom-power {
   margin-right: 6px;
@@ -176,4 +179,14 @@ padding-left: 5px;
  padding-right: 10px;
 color: #f9e2af; 
 /*color: #cdd6f4;*/
+}
+
+
+
+
+
+#custom-wallpaper{
+padding-left: 5px;
+ padding-right: 10px;
+background-color: #f9e2af;
 }
