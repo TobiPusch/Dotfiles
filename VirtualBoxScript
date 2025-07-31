@@ -1,0 +1,5 @@
+sudo modprobe vboxdrv
+sudo modprobe -r kvm_intel # Für Intel CPUs
+sudo modprobe -r kvm_amd   # Für AMD CPUs
+sudo modprobe -r kvm       # Das Haupt-KVM-Modul
+
