@@ -15,8 +15,10 @@
         "hyprland/window"
     ],
     "modules-right": [
+	    
 	"custom/wallpaper",
-        "idle_inhibitor",
+"custom/audio-menu",
+//        "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
@@ -73,6 +75,11 @@
         }
     },
 
+"custom/audio-menu": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "pavucontrol"
+},
 
 
     "keyboard-state": {
