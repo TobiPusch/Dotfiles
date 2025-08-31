@@ -35,22 +35,22 @@ These configurations are managed with [GNU Stow](https://www.gnu.org/software/st
 
  ## 🚀 Installation with Stow
 
-1. **Clone the repository** (recommended into `~/dotfiles`):
+**Clone the repository** (recommended into `~/dotfiles`):
 
 ```bash
 git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
 cd ~/dotfiles
    ```
 
-2. **Install a single package** (example: Neovim):
+**Install a single package** (example: Neovim):
  ```bash
  stow neovim
  ```
-3. **Install multiple packages**:
+**Install multiple packages**:
  ```bash
  stow bash kitty tmux
  ```
-4. **Install everything at once**:
+**Install everything at once**:
 ```bash
 stow */
  ```
